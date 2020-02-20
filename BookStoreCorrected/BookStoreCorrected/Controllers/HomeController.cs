@@ -30,13 +30,6 @@ namespace BookStoreCorrected.Controllers
 
         public ActionResult Hello()
         {
-            //var person = new Person
-            //{ 
-            //    FirstName = "Łukasz",
-            //    LastName = "Strych"
-            //};
-
-            //return View(person);
             return View();
         }
     }
