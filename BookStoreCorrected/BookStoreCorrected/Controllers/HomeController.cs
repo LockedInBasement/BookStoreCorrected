@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStoreCorrected.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -24,6 +25,18 @@ namespace BookStoreCorrected.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Hello()
+        {
+            //var person = new Person
+            //{ 
+            //    FirstName = "Łukasz",
+            //    LastName = "Strych"
+            //};
+
+            //return View(person);
             return View();
         }
     }
