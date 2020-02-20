@@ -198,12 +198,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\BookContext.cs" />
     <Compile Include="DAL\BookInitializer.cs" />
+    <Compile Include="Extensions\HtmlHelperExtension.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\QueryOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

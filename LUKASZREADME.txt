@@ -28,3 +28,12 @@ ABC.Models->ABC
 
 albo importujesz wszystkie biblioteki do każdego pliku osobno(autor pomija dość dużo ref'ów),
 tak długo jak nie ma konfiltu nazw wszystko bedzie ok. Po prostu nie dubluj nazw.
+
+
+
+////to do
+
+6.Newtonsoft.Json:
+teraz jest podawany jawnie typ generyczny w HtmlConvertToJson<T> -> atrybut "model" ma typ IEnumerable<T> a nie object.
+
+7.W calej ksiazce nie ma walidacji danych -> czesc jest wprowadzona w rodziale 6 , reszte musisz dopisac sam.
