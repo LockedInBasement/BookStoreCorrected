@@ -1,8 +1,9 @@
-﻿@model IEnumerable<BookStoreCorrected.Models.Author>
+﻿@using BookStoreCorrected.Models
+@model IEnumerable<BookStoreCorrected.Models.Author>
 
 @{
     ViewBag.Title = "Authors";
-    
+    var queryOptions = (QueryOptions)ViewBag.QueryOptions;
 }
 
 <h2>Index</h2>
@@ -16,8 +17,9 @@
 
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(modelItem => modelItem.FirstName) </th>
-            <th>@Html.DisplayNameFor(modelItem => modelItem.LastName) </th>
+
+            <th>@Html.BuildSortableLink("First Name", "Index", "FirstName", queryOptions)</th>
+            <th>@Html.BuildSortableLink("Last Name", "Index", "LastName", queryOptions)</th>
             <th>@Html.DisplayNameFor(modelItem => modelItem.Biography) </th>
             <th>Actions</th>
 
