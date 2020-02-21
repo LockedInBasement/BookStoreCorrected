@@ -11,7 +11,7 @@ namespace BookStoreCorrected.Models
         public QueryOptions()
         {
             CurrentPage = 1;
-            PageSize = 1;
+            PageSize = 5;
             SortField = "Id";
             SortOrder = SortOrder.Ascending;
         }
