@@ -11,10 +11,10 @@ namespace BookStoreCorrected.Models
     {
         //[JsonProperty(PropertyName = "id")]
         public int Id { get; set; }
-        //[Required]
+        [Required]
         //[JsonProperty(PropertyName = "firstName")]
         public string FirstName { get; set; }
-        //[Required]
+        [Required]
         //[JsonProperty(PropertyName = "lastName")]
         public string LastName { get; set; }
         //[JsonProperty(PropertyName = "biography")]
