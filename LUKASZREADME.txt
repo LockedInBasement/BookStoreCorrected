@@ -31,3 +31,6 @@ tak długo jak nie ma konfiltu nazw wszystko bedzie ok. Po prostu nie dubluj naz
 
 Stage 6
 W calej ksiazce nie ma walidacji danych -> czesc jest wprowadzona w rodziale 6 , reszte musisz dopisac sam.
+
+Stage 8-10 
+Wszystko tutaj jest obsolete. Przejdz do drugiej czesci odrazu nie trać czasu. Jak chcesz możesz zobaczyć zmiany
