@@ -34,3 +34,5 @@ W calej ksiazce nie ma walidacji danych -> czesc jest wprowadzona w rodziale 6 ,
 
 Stage 8-10 
 Wszystko tutaj jest obsolete. Przejdz do drugiej czesci odrazu nie trać czasu. Jak chcesz możesz zobaczyć zmiany
+
+reszta czesc2
